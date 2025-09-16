@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3rem;  
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 7rem;   
+  font-weight: 700;
+}
