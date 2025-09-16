@@ -140,6 +140,7 @@ h2 {
 
 .grid .fourth {
     grid-column: 2/3; 
+    padding-bottom: 25px;
 }
 
 .grid a img {
@@ -182,4 +183,30 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #fff;
+}
+
+.about-time {
+    display: flex;
+    justify-content: center;
+    gap: 80px;  
+    margin-top: 40px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.about-time .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-time .time h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-time .time p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 5px;
 }
