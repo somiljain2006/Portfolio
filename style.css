@@ -349,3 +349,74 @@ h2 {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 204, 255, 0.5);
 }
+
+.experience-section {
+    margin: 80px auto;
+    padding: 0 80px;
+    color: #fff;
+}
+
+.experience-heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: left; 
+}
+
+.experience-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.experience-card {
+    position: relative; 
+    flex: 1;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 204, 255, 0.5);
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.experience-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.experience-header h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.experience-time {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background-color: rgb(189, 153, 90);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
