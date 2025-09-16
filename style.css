@@ -93,15 +93,15 @@ h2 {
 }
 
 .about-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px;
-  height: 100vh;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5); 
-  gap: 40px;
-  margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 60px 80px;
+    gap: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 120px;
+    margin-bottom: 20px; 
 }
 
 .about-text {
@@ -118,6 +118,39 @@ h2 {
   line-height: 1.8;
   color: #ddd;
   max-width: 90%;
+}
+
+.fullwidth {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    margin-top: -20px; 
+    padding-left: 80px; 
+    padding-right: 80px; 
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 100%;
+}
+
+.grid .fourth {
+    grid-column: 2/3; 
+}
+
+.grid a img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.grid a img:hover {
+    transform: scale(1.05);
 }
 
 .about-card {
