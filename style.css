@@ -284,3 +284,17 @@ h2 {
 .view a:hover {
     text-decoration: underline;
 }
+
+.projects-grid a.project-card {
+    text-decoration: none; 
+    color: #fff;         
+    display: flex;
+    flex-direction: column;
+    gap: 10px;             
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-grid a.project-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(237, 221, 221, 0.4);
+}
