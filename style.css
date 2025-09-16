@@ -210,3 +210,77 @@ h2 {
     font-weight: 500;
     margin-top: 5px;
 }
+
+.projects-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.projects-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.projects-section .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.project-card {
+    flex: 1 1;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 204, 255, 0.5);
+}
+
+.view {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.view a {
+    text-decoration: none;
+    color: #00cfff;
+    font-weight: 600;
+}
+
+.view a:hover {
+    text-decoration: underline;
+}
