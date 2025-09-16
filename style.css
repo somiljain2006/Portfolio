@@ -42,3 +42,52 @@ h2 {
   font-weight: 600;
   color: #ffffff;
 }
+
+.navbar {
+  position: fixed;
+  bottom: 40px;  
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px; 
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  height: 40px;  
+  width: auto;
+  border-radius: 6px;
+}
+
+.separator {
+  width: 1px;
+  height: 32px;
+  background: #bbb;
+  opacity: 0.6;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00cfff;
+}
