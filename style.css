@@ -347,29 +347,6 @@ h2 {
     align-items: center;
 }
 
-.skill-card {
-    width: 100px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill-card img {
-    max-width: 80%;
-    max-height: 80%;
-    object-fit: contain;
-}
-
-.skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 204, 255, 0.5);
-}
-
 .experience-section {
     margin: 80px auto;
     padding: 0 80px;
@@ -517,4 +494,25 @@ h2 {
 
 html {
   scroll-behavior: smooth;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 30px; 
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skills-grid img {
+    width: 90px;   
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-grid img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+    border-radius: 8px;
 }
