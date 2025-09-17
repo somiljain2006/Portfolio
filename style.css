@@ -442,6 +442,7 @@ h2 {
     gap: 40px;
     justify-items: center;
     align-items: center;
+    flex: 1;
 }
 
 .contact-card {
@@ -463,4 +464,19 @@ h2 {
 
 .contact-card:hover {
     color: #00cfff;
+}
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.label {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
 }
