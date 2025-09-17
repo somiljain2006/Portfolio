@@ -494,3 +494,7 @@ h2 {
     font-size: 0.75rem;
     color: #aaa;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hi I'm</h1>
+    <h1 id="home">Hi I'm</h1>
     <h2>Somil</h2>
     <p class="description">
         I’m a passionate developer with a strong interest in building clean and responsive websites. 
@@ -15,20 +15,20 @@
         I enjoy learning new technologies, solving problems, and creating projects that bring ideas to life.
     </p>
 
-    <h3 class="about">About Me</h3>
+    <h3 class="about" id="about">About Me</h3>
 
     <nav class="navbar">
         <div class="logo">
-            <img src="logo.jpg" alt="Logo">
+            <a href="#home"><img src="logo.jpg" alt="Logo"></a>
         </div>
         <div class="separator"></div>
         <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -53,7 +53,7 @@
         <h3 class="profile-name">Somil Jain</h3>
     </div>
 </section>
-<section class="fullwidth">
+<section class="fullwidth" id="profiles">
     <div class="grid">
         <a href="https://leetcode.com/yourprofile">
             <img src="atcoder.png" alt="AtCoder">
@@ -79,7 +79,7 @@
         <p>Years</p>
     </div>
 </section>
-<section class="projects-section">
+<section class="projects-section" id="projects">
     <h2>Featured Projects</h2>
     <p class="tagline">Proof of work isn’t just a framework—it’s a statement: real value demands real effort.</p>
     <div class="projects-grid">
@@ -113,7 +113,7 @@
         To view more, visit my <a href="https://github.com/yourprofile">GitHub</a>.
     </p>
 </section>
-<section class="skills-section">
+<section class="skills-section" id="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
         <a href="https://en.cppreference.com/w/" class="skill-card"><img src="logos/c.png" alt="C"></a>
@@ -140,7 +140,7 @@
     </div>
     <p class="tagline">When it comes to mastering a skill, time is the magic ingredient.</p>
 </section>
-<section class="experience-section">
+<section class="experience-section" id="experience">
     <h2 class="experience-heading">Experience</h2>
     <div class="experience-grid">
         <div class="experience-card">
@@ -173,7 +173,7 @@
     </div>
 </section>
 <hr class="divider">
-<section class="contact-section">
+<section class="contact-section" id="contact">
     <div class="contact-wrapper">
         <div class="label">My Socials :</div>
         <div class="contact-grid">
