@@ -480,3 +480,17 @@ h2 {
     color: #fff;
     letter-spacing: 2px;
 }
+
+.footer {
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    margin-top: -48px;
+}
+
+.footer .rights {
+    font-size: 0.75rem;
+    color: #aaa;
+}
