@@ -1,3 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;              
+  padding: 0;
+  overflow-x: hidden;    
+}
+
+.about-section,
+.projects-section,
+.skills-section,
+.contact-section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: clamp(16px, 4vw, 80px); 
+  box-sizing: border-box;
+}
+
+.fullwidth {
+  width: 100%;
+  padding-inline: clamp(8px, 4vw, 80px);
+  box-sizing: border-box;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;        
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   display: flex;
   justify-content: flex-start;
