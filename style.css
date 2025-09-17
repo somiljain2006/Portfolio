@@ -99,7 +99,7 @@ h2 {
     padding: 60px 80px;
     gap: 40px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(189, 111, 74, 0.884);
     margin-top: 120px;
     margin-bottom: 20px; 
 }
@@ -124,7 +124,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: rgba(0,0,0,0.5);
+    background: rgba(189, 111, 74, 0.884);
     margin-top: -20px; 
     padding-left: 80px; 
     padding-right: 80px; 
