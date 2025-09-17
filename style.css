@@ -27,13 +27,18 @@ h2 {
 }
 
 .description {
-  margin-top: 20px;
-  font-size: 1.5rem;
+  margin-top: 30px;
+  font-size: 1.3rem;
   font-weight: 300;
-  max-width: 800px;
+  max-width: 900px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px 40px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 .about {
